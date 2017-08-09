@@ -7,7 +7,7 @@ body{
 .main-container{
     margin-top: 30px;
     margin-bottom: 60px;
-        padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .puntero{
@@ -18,6 +18,9 @@ body{
   background-color: #22609d;
 }
 #main_navbar li a {
+    color: #d9d9d9;
+}
+#main_navbar li.active a {
     color: white;
 }
 

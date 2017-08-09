@@ -1,13 +1,17 @@
 
-<p class="red-text center-text"><b> Galeria de Imagenes:</b> Fundacion Canica. </p>
-<section class="container-fluid">
-  <modal-gallery [modalImages]="imagesArray"
-                 [buttonsConfig]="{download: true, extUrl: false, close: true}"
-                 [downloadable]="true"
-                 [enableCloseOutside]="true"
-                 (hasData)="onImageLoaded($event)"
-                 (close)="onCloseImageModal($event)"
-                 (show)="onVisibleIndex($event)"
-                 (firstImage)="onIsFirstImage($event)"
-                 (lastImage)="onIsLastImage($event)"></modal-gallery>
-</section>
+<div class="animated fadeIn fast">
+
+  <p class="red-text center-text"><b> Galeria de Imagenes:</b> Fundacion Canica. </p>
+  <section class="container-fluid">
+    <modal-gallery [modalImages]="imagesArray"
+                   [buttonsConfig]="{download: true, extUrl: false, close: true}"
+                   [downloadable]="true"
+                   [enableCloseOutside]="true"
+                   (hasData)="onImageLoaded($event)"
+                   (close)="onCloseImageModal($event)"
+                   (show)="onVisibleIndex($event)"
+                   (firstImage)="onIsFirstImage($event)"
+                   (lastImage)="onIsLastImage($event)"></modal-gallery>
+  </section>
+
+</div>
