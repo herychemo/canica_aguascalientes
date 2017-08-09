@@ -1,0 +1,8 @@
+
+.carousel-item img{
+  align-self: center;
+  max-height: 300px;
+}
+.carousel-item {
+  text-align: center;
+}

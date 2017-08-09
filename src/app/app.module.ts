@@ -19,6 +19,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { AddressComponent } from './components/address/address.component';
+import { CaroComponent } from './components/caro/caro.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
+    AddressComponent,
+    CaroComponent
   ],
   imports: [
     BrowserModule,
