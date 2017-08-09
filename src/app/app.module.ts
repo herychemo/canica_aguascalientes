@@ -21,6 +21,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { AddressComponent } from './components/address/address.component';
 import { CaroComponent } from './components/caro/caro.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CaroComponent } from './components/caro/caro.component';
     FooterComponent,
     GalleryComponent,
     AddressComponent,
-    CaroComponent
+    CaroComponent,
+    AcercadeComponent
   ],
   imports: [
     BrowserModule,

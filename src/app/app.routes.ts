@@ -2,9 +2,11 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import {HomeComponent} from './components/home/home.component';
+import {AcercadeComponent} from './components/acercade/acercade.component';
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'acerca', component: AcercadeComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

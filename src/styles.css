@@ -10,6 +10,9 @@ body{
         padding-bottom: 60px;
 }
 
+.puntero{
+  cursor: pointer;
+}
 
 #main_footer, #main_navbar{
   background-color: #22609d;
