@@ -55,11 +55,30 @@ export class GalleryComponent implements OnDestroy {
           'Description 5', // no description
           'http://www.google.com'
         ),
+        new Image(
+          '../assets/img/gallery/6.jpg',
+          null, // no thumb
+          'Description 6', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/7.jpg',
+          null, // no thumb
+          'Description 7', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/8.jpg',
+          null, // no thumb
+          'Description 8', // no description
+          'http://www.google.com'
+        ),
       ];
 
       // observable of an array of images with a delay to simulate a network request
-      images: Observable<Array<Image>> = Observable.of(this.imagesArray).delay(300);
+      images: Observable<Array<Image>> = Observable.of(this.imagesArray).delay(30);
 
+      /*
       // array with a single image inside (the first one)
       singleImage: Observable<Array<Image>> = Observable.of([
         new Image(
@@ -68,7 +87,7 @@ export class GalleryComponent implements OnDestroy {
           'Description 1',
           'http://www.google.com'
         )]
-      );
+      );*/
 
       // array of images initialized inside the onNgInit() of this component
       // in an asynchronous way subscribing to an Observable with a delay.
