@@ -26,33 +26,33 @@ export class GalleryComponent implements OnDestroy {
 
       imagesArray: Array<Image> = [
         new Image(
-          '../assets/img/caro/1.jpg',
+          '../assets/img/gallery/1.jpg',
           null, // no thumb
-          'Description', // no description
+          'Description 1', // no description
           'http://www.google.com'
         ),
         new Image(
-          '../assets/img/caro/2.jpg',
+          '../assets/img/gallery/2.jpg',
           null, // no thumb
-          'Description', // no description
+          'Description 2', // no description
           'http://www.google.com'
         ),
         new Image(
-          '../assets/img/caro/3.jpg',
+          '../assets/img/gallery/3.jpg',
           null, // no thumb
-          'Description', // no description
+          'Description 3', // no description
           'http://www.google.com'
         ),
         new Image(
-          '../assets/img/caro/4.jpg',
+          '../assets/img/gallery/4.jpg',
           null, // no thumb
-          'Description', // no description
+          'Description 4', // no description
           'http://www.google.com'
         ),
         new Image(
-          '../assets/img/caro/5.jpg',
+          '../assets/img/gallery/5.jpg',
           null, // no thumb
-          'Description', // no description
+          'Description 5', // no description
           'http://www.google.com'
         ),
       ];

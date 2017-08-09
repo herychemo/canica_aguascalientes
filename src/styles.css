@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-  background: #e7f4fd;
+  background: #fff;
 }
 
 .main-container{
@@ -11,6 +11,12 @@ body{
 }
 
 
+#main_footer, #main_navbar{
+  background-color: #22609d;
+}
+#main_navbar li a {
+    color: white;
+}
 
 img.ng-thumb{
   height: 80px!important;
