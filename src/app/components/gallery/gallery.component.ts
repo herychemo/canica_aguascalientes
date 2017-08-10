@@ -73,6 +73,36 @@ export class GalleryComponent implements OnDestroy {
           'Description 8', // no description
           'http://www.google.com'
         ),
+        new Image(
+          '../assets/img/gallery/9.jpg',
+          null, // no thumb
+          'Description 9', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/10.jpg',
+          null, // no thumb
+          'Description 10', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/11.jpg',
+          null, // no thumb
+          'Description 11', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/12.jpg',
+          null, // no thumb
+          'Description 12', // no description
+          'http://www.google.com'
+        ),
+        new Image(
+          '../assets/img/gallery/13.jpg',
+          null, // no thumb
+          'Description 13', // no description
+          'http://www.google.com'
+        ),
       ];
 
       // observable of an array of images with a delay to simulate a network request
