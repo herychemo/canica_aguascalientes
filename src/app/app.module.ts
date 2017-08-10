@@ -22,6 +22,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { AddressComponent } from './components/address/address.component';
 import { CaroComponent } from './components/caro/caro.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import { AboutherComponent } from './components/abouther/abouther.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     GalleryComponent,
     AddressComponent,
     CaroComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    AboutherComponent
   ],
   imports: [
     BrowserModule,
