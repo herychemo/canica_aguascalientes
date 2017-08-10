@@ -23,6 +23,7 @@ import { AddressComponent } from './components/address/address.component';
 import { CaroComponent } from './components/caro/caro.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { AboutherComponent } from './components/abouther/abouther.component';
+import { PsicooncologiaComponent } from './components/psicooncologia/psicooncologia.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AboutherComponent } from './components/abouther/abouther.component';
     AddressComponent,
     CaroComponent,
     AcercadeComponent,
-    AboutherComponent
+    AboutherComponent,
+    PsicooncologiaComponent
   ],
   imports: [
     BrowserModule,
