@@ -22,6 +22,13 @@ body{
   cursor: pointer;
 }
 
+.blue_card_header{
+    background-color: #eaf3fb;
+}
+#main_jumbotron{
+  background-color: #d4e7f7;
+}
+
 #main_footer, #main_navbar{
   background-color: #22609d;
 }
