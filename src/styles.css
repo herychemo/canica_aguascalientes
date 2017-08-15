@@ -9,10 +9,11 @@ body{
     margin-bottom: 60px;
 }
 
-.top-30{      margin-top: 30px;  }
+.top-30{      margin-top: 30px;     }
 .bottom-30{   margin-bottom: 30px;  }
-.top-40{      margin-top: 40px;  }
+.top-40{      margin-top: 40px;     }
 .bottom-40{   margin-bottom: 40px;  }
+.right-10{    margin-right: 10px    }
 
 .go_backward{
   z-index: -1;
@@ -26,18 +27,42 @@ body{
   background-color: #d4e7f7;
   background-color: #eaf3fb;
 }
+
 .blue_card_header{
     background-color: #eaf3fb;
+    color: black;
+}
+/*  Original Green   #a9d15a  */
+.green_card_header{
+  background-color: #eef7ee;
+  color: black;
+}
+.green-border{
+  border-color: #cbe7cb;
+}
+.green-text{
+  color: #3e8e3e;
+  color: #367c36;
+}
+.blue-text{
+  color: #22609d;
 }
 
-#main_footer, #main_navbar{
+#main_navbar{
   background-color: #22609d;
 }
+#main_footer{
+  background-color: #5cb85c;
+}
+
+
 #main_navbar li a {
     color: #d9d9d9;
 }
 #main_navbar li.active a {
     color: white;
+    text-decoration: overline;
+    text-decoration-color: #5cb85c;
 }
 
 img.ng-thumb{
