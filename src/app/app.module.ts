@@ -24,6 +24,7 @@ import { CaroComponent } from './components/caro/caro.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { AboutherComponent } from './components/abouther/abouther.component';
 import { PsicooncologiaComponent } from './components/psicooncologia/psicooncologia.component';
+import { BankComponent } from './components/bank/bank.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PsicooncologiaComponent } from './components/psicooncologia/psicooncolo
     CaroComponent,
     AcercadeComponent,
     AboutherComponent,
-    PsicooncologiaComponent
+    PsicooncologiaComponent,
+    BankComponent
   ],
   imports: [
     BrowserModule,
